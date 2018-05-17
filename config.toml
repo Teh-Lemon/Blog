@@ -56,8 +56,8 @@ hasCJKLanguage = true
 	copyright = ""
 
 	# show latest posts in single page
-	showLatestPosts = false
-	readMore = ""
+	showLatestPosts = true
+	readMore = "More"
 
 	# Share
 	enableShare = true
@@ -76,5 +76,5 @@ hasCJKLanguage = true
 
 # Add additional social link entries underneath
 [social]
-	twitter-square = "https://www.twitter.com/tehlemon"
-	github-square = "https://www.github.com/teh-lemon"
+	#twitter-square = "https://www.twitter.com/tehlemon"
+	# github-square = "https://www.github.com/teh-lemon"
