@@ -2,6 +2,7 @@
     <section id="wrapper">
         <header id="header">
             <a href='{{ with .Site.Params.avatarLink }}{{ . }}{{ else }}{{ .Site.BaseURL }}about{{ end }}'>
+                <!-- Changed to .jpg -->
                 <img id="avatar" class="2x" src="{{ .Site.BaseURL }}images/avatar.jpg"/>
             </a>
             <h1>{{ .Site.Title }}</h1>
