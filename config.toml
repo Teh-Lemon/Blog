@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://tehlemon.com/"
+baseurl = ""
 relativeURLs = true
 languageCode = "en"
 title = "Teh Lemon"
