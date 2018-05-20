@@ -5,6 +5,5 @@ date = {{ .Date }}
 tags = [""]
 categories = [""]
 draft = false
+description = ""
 +++
-<!--more-->
-Boop.
