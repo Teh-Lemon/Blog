@@ -7,8 +7,14 @@ theme = "hugo-theme-cactus-plus"
 googleAnalytics = "UA-62547358-1"
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
 hasCJKLanguage = true
+canonifyurls = true
 
 [params]
+	# Mine
+	## The base url used in shortcode img-tl
+	imgtlurl = "https://images.tehlemon.com/"
+
+	# Cactus Plus
 	author = "Teh Lemon"
 	description = "Teh Lemon's website"
 	bio = ""
