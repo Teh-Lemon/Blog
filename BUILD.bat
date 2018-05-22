@@ -10,3 +10,6 @@ del public\images\avatar.png
 del public\images\avatar@2x.png
 del public\css\monosocialiconsfont.css
 del public\css\font-awesome.min.css
+
+echo gitdir: ../.git/modules/public > public/.git
+pause
