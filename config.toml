@@ -8,6 +8,7 @@ googleAnalytics = "UA-62547358-1"
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
 hasCJKLanguage = true
 canonifyurls = true
+enableEmoji = true
 
 [params]
 	# Mine

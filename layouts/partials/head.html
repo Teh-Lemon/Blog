@@ -32,6 +32,6 @@
 		{{ end }}
 
 		{{ range .Site.Params.customCSS }}
-		<link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
+		<link rel="stylesheet" type="text/css" href="{{ $.Site.BaseURL }}{{ . }}">
 		{{ end }}
 	</head>
