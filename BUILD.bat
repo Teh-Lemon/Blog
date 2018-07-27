@@ -11,6 +11,6 @@ del public\images\avatar@2x.png
 del public\css\monosocialiconsfont.css
 del public\css\font-awesome.min.css
 
-REM Rebuild git submodule
+REM Re-building git submodule
 echo gitdir: ../.git/modules/public> public/.git
 pause
