@@ -13,7 +13,7 @@ enableEmoji = true
 [params]
 	# Mine
 	## The base url used in shortcode img-tl
-	imgtlurl = "https://images.tehlemon.com/"
+	imgtlurl = "https://i.tehlemon.com/"
 
 	# Cactus Plus
 	author = "Teh Lemon"
