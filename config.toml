@@ -3,18 +3,25 @@ baseurl = ""
 relativeURLs = true
 languageCode = "en"
 title = "Teh Lemon"
-theme = "hugo-theme-cactus-plus"
+theme = "mediumish-gohugo-theme"
 googleAnalytics = "UA-62547358-1"
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
 hasCJKLanguage = true
 canonifyurls = true
 enableEmoji = true
 
+# Mediumish
+summaryLength = 25
+copyright = "Teh Lemon - All rights reserved"
+
 [params]
 	# Mine
 	## The base url used in shortcode img-tl
 	imgtlurl = "https://i.tehlemon.com/"
 
+	# Mediumish
+	
+	
 	# Cactus Plus
 	author = "Teh Lemon"
 	description = "Teh Lemon's Blog"
@@ -86,3 +93,36 @@ enableEmoji = true
 [social]
 	#twitter-square = "https://www.twitter.com/tehlemon"
 	# github-square = "https://www.github.com/teh-lemon"
+
+[params.index]
+  picture = "/images/avatar2x.jpg"
+  title = "John Doe"
+  subtitle = "I'm a unique placeholder. Working here and there!"
+  mdtext = '''
+Currently trying to get this blog running, still don't know what the blog will be about!\
+**This textblock is a demonstration of the mdtext-param.**\
+### This is a markdown heading
+'''
+  alertbar = false
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog"
+[[menu.main]]
+    name = "Notes"
+    weight = 100
+    identifier = "notes"
+    url = "/notes"
+[[menu.main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 200
+    url = "/"
+[[menu.main]]
+    name = "Projects"
+    identifier = "projects"
+    weight = 200
+    url = "/static/projects"
