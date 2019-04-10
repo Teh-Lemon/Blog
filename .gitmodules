@@ -5,3 +5,6 @@
 	path = public
 	url = https://github.com/Teh-Lemon/Teh-Lemon.github.io.git
 	branch = master
+[submodule "themes/mediumish-gohugo-theme"]
+	path = themes/mediumish-gohugo-theme
+	url = https://github.com/Teh-Lemon/mediumish-gohugo-theme.git
