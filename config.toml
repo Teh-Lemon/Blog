@@ -1,102 +1,36 @@
-# Site settings
-baseurl = ""
+baseURL = ""
 relativeURLs = true
 languageCode = "en"
 title = "Teh Lemon"
 theme = "mediumish-gohugo-theme"
-googleAnalytics = "UA-62547358-1"
-# Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
-hasCJKLanguage = true
-canonifyurls = true
-enableEmoji = true
-
-# Mediumish
 summaryLength = 25
 copyright = "Teh Lemon - All rights reserved"
+enableEmoji = true
+publishDir = "docs"
+#disqusShortname = "your-shortname-here"
+googleAnalytics = "UA-62547358-1"
+hasCJKLanguage = true
+canonifyurls = true
 
 [params]
-	# Mine
+	### Mine ###
 	## The base url used in shortcode img-tl
 	imgtlurl = "https://i.tehlemon.com/"
+	###	###
 
-	# Mediumish
-	
-	
-	# Cactus Plus
-	author = "Teh Lemon"
-	description = "Teh Lemon's Blog"
-	bio = ""
+  logo = "/images/avatar.jpg"
+  description ="Teh Lemon's blog"
+  #mailchimp = "you can provide a mailchimp-link here"
 
-	twitter = "tehlemon"
-	facebook = ""
-
-	enableRSS = true
-	enableToc = false
-
-	enableDisqus = false
-	disqusShortname = "your_disqus_short_name"
-
-
-	enableSummary = true
-	# Set the value to true if use description in post front matter replace content summary
-	useDescriptionReplaceSummary = true
-
-
-	enableGoogleAnalytics = true
-	enableBaiduAnalytics = false
-	# Set the value to your baidu analysis code if you want to use baidu analytics
-	baiduAnalytics = 'your_baidu_analysis_code'
-
-	enableTwitterCard = false
-	# The url for twitter card image, default is avatar.png in static/images directory
-	twitterCardImage = "images/avatar.jpg"
-
-	# Add custom assets with their paths relative to the static folder
-	customCSS = ["css/custom_style.css"]
-	customJS  = []
-
-	# The variables below are optionally too and can be used to
-	# translate or customize each string of the theme.
-
-	# Navigation links
-	home = ""
-	about = ""
-	archive = "Blog"
-	projects = ""
-	notes = ""
-	subscribe = ""
-
-	olderPosts = ""
-	newerPosts = ""
-	copyright = ""
-
-	# show latest posts in single page
-	showLatestPosts = true
-	readMore = "More"
-
-	# Share
-	enableShare = true
-	tweet = ""
-	share = ""
-
-	# 404 page
-	title404 = ""
-	subtitle404 = ""
-
-	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
-	iconFont = "font-awesome"
-  # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
-  socialIconStyle = ""
-
-
-# Add additional social link entries underneath
-[social]
-	#twitter-square = "https://www.twitter.com/tehlemon"
-	# github-square = "https://www.github.com/teh-lemon"
+[params.author]
+  # Commented out to omit the author block above articles
+	#name = "Teh Lemon"
+  #thumbnail = "/images/avatar2x.jpg"
+  #description = ""
 
 [params.index]
   picture = "/images/avatar2x.jpg"
-  title = "John Doe"
+  title = "Teh Lemon"
   subtitle = "I'm a unique placeholder. Working here and there!"
   mdtext = '''
 Currently trying to get this blog running, still don't know what the blog will be about!\
@@ -105,7 +39,19 @@ Currently trying to get this blog running, still don't know what the blog will b
 '''
   alertbar = false
 
+[params.social]
+  github = "teh-lemon"
+  #linkedin = "<username>"
+  #xing = "<username>"
+  #medium = "<username>"
+  twitter = "tehlemon"
+
 ## Main Menu
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 100
+    url = "/"
 [[menu.main]]
     name = "Blog"
     weight = 100
@@ -116,11 +62,6 @@ Currently trying to get this blog running, still don't know what the blog will b
     weight = 100
     identifier = "notes"
     url = "/notes"
-[[menu.main]]
-    name = "About Me"
-    identifier = "about"
-    weight = 200
-    url = "/"
 [[menu.main]]
     name = "Projects"
     identifier = "projects"
