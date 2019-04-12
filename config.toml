@@ -19,19 +19,19 @@ canonifyurls = true
 	###	Mine ###
 
   logo = "/images/lemon.png"
-  description ="Teh Lemon's blog"
+  description ="Teh Lemon's blog"	
   #mailchimp = "you can provide a mailchimp-link here"
 
 [params.author]
   # Commented out to omit the author block above articles
-	#name = "Teh Lemon"
-  #thumbnail = "/images/avatar2x.jpg"
-  #description = ""
+	name = "Teh Lemon"
+  thumbnail = "/images/avatar.jpg"
+  description = ""
 
 [params.index]
   picture = "/images/yuno.jpg"
   title = "Teh Lemon"
-  subtitle = "Holiday Blogs"
+  subtitle = "Bloggy Blogs"
   mdtext = '''
 ##### Anime  
 https://myanimelist.net/animelist/teh_lemon
