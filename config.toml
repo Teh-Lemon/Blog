@@ -4,7 +4,7 @@ languageCode = "en"
 title = "Teh Lemon"
 theme = "mediumish-gohugo-theme"
 summaryLength = 25
-copyright = "Teh Lemon - All rights reserved"
+copyright = "Teh Lemon"
 enableEmoji = true
 publishDir = "docs"
 #disqusShortname = "your-shortname-here"
@@ -16,9 +16,9 @@ canonifyurls = true
 	### Mine ###
 	## The base url used in shortcode img-tl
 	imgtlurl = "https://i.tehlemon.com/"
-	###	###
+	###	Mine ###
 
-  logo = "/images/avatar.jpg"
+  logo = "/images/lemon.png"
   description ="Teh Lemon's blog"
   #mailchimp = "you can provide a mailchimp-link here"
 
@@ -29,22 +29,30 @@ canonifyurls = true
   #description = ""
 
 [params.index]
-  picture = "/images/avatar2x.jpg"
+  picture = "/images/yuno.jpg"
   title = "Teh Lemon"
-  subtitle = "I'm a unique placeholder. Working here and there!"
+  subtitle = "Holiday Blogs"
   mdtext = '''
-Currently trying to get this blog running, still don't know what the blog will be about!\
-**This textblock is a demonstration of the mdtext-param.**\
-### This is a markdown heading
+##### Anime  
+https://myanimelist.net/animelist/teh_lemon
+
+##### Games  
+https://steamcommunity.com/id/teh_lemon
+
+##### Github  
+https://github.com/teh-lemon
+
+##### Twitter  
+https://twitter.com/TehLemon
 '''
   alertbar = false
 
 [params.social]
-  github = "teh-lemon"
+  #github = "teh-lemon"
   #linkedin = "<username>"
   #xing = "<username>"
   #medium = "<username>"
-  twitter = "tehlemon"
+  #twitter = "tehlemon"
 
 ## Main Menu
 [[menu.main]]
@@ -67,3 +75,8 @@ Currently trying to get this blog running, still don't know what the blog will b
     identifier = "projects"
     weight = 200
     url = "/static/projects"
+[[menu.main]]
+		name = "RSS"
+		identifier = "RSS"
+		weight = 200
+		url = "/index.xml"
