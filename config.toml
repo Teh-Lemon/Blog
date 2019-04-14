@@ -1,88 +1,82 @@
-# Site settings
-baseurl = ""
+baseURL = ""
 relativeURLs = true
 languageCode = "en"
 title = "Teh Lemon"
-theme = "hugo-theme-cactus-plus"
+theme = "mediumish-gohugo-theme"
+summaryLength = 25
+copyright = "Teh Lemon"
+enableEmoji = true
+publishDir = "public"
+#disqusShortname = "your-shortname-here"
 googleAnalytics = "UA-62547358-1"
-# Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
 hasCJKLanguage = true
 canonifyurls = true
-enableEmoji = true
 
 [params]
-	# Mine
+	### Mine ###
 	## The base url used in shortcode img-tl
 	imgtlurl = "https://i.tehlemon.com/"
+	###	Mine ###
 
-	# Cactus Plus
-	author = "Teh Lemon"
-	description = "Teh Lemon's Blog"
-	bio = ""
+  logo = "/images/lemon.png"
+  description ="Teh Lemon's blog"	
+  #mailchimp = "you can provide a mailchimp-link here"
 
-	twitter = "tehlemon"
-	facebook = ""
+[params.author]
+  # Commented out to omit the author block above articles
+	name = "Teh Lemon"
+  thumbnail = "/images/avatar.jpg"
+  description = ""
 
-	enableRSS = true
-	enableToc = false
+[params.index]
+  picture = "/images/yuno.jpg"
+  title = "Teh Lemon"
+  subtitle = "Bloggy Blogs"
+  mdtext = '''
+##### Anime  
+https://myanimelist.net/animelist/teh_lemon
 
-	enableDisqus = false
-	disqusShortname = "your_disqus_short_name"
+##### Games  
+https://steamcommunity.com/id/teh_lemon
 
+##### Github  
+https://github.com/teh-lemon
 
-	enableSummary = true
-	# Set the value to true if use description in post front matter replace content summary
-	useDescriptionReplaceSummary = true
+##### Twitter  
+https://twitter.com/TehLemon
+'''
+  alertbar = false
 
+[params.social]
+  #github = "teh-lemon"
+  #linkedin = "<username>"
+  #xing = "<username>"
+  #medium = "<username>"
+  #twitter = "tehlemon"
 
-	enableGoogleAnalytics = true
-	enableBaiduAnalytics = false
-	# Set the value to your baidu analysis code if you want to use baidu analytics
-	baiduAnalytics = 'your_baidu_analysis_code'
-
-	enableTwitterCard = false
-	# The url for twitter card image, default is avatar.png in static/images directory
-	twitterCardImage = "images/avatar.jpg"
-
-	# Add custom assets with their paths relative to the static folder
-	customCSS = ["css/custom_style.css"]
-	customJS  = []
-
-	# The variables below are optionally too and can be used to
-	# translate or customize each string of the theme.
-
-	# Navigation links
-	home = ""
-	about = ""
-	archive = "Blog"
-	projects = ""
-	notes = ""
-	subscribe = ""
-
-	olderPosts = ""
-	newerPosts = ""
-	copyright = ""
-
-	# show latest posts in single page
-	showLatestPosts = true
-	readMore = "More"
-
-	# Share
-	enableShare = true
-	tweet = ""
-	share = ""
-
-	# 404 page
-	title404 = ""
-	subtitle404 = ""
-
-	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
-	iconFont = "font-awesome"
-  # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
-  socialIconStyle = ""
-
-
-# Add additional social link entries underneath
-[social]
-	#twitter-square = "https://www.twitter.com/tehlemon"
-	# github-square = "https://www.github.com/teh-lemon"
+## Main Menu
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 100
+    url = "/"
+[[menu.main]]
+    name = "Blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog"
+[[menu.main]]
+    name = "Notes"
+    weight = 100
+    identifier = "notes"
+    url = "/notes"
+[[menu.main]]
+    name = "Projects"
+    identifier = "projects"
+    weight = 200
+    url = "/static/projects"
+[[menu.main]]
+		name = "RSS"
+		identifier = "RSS"
+		weight = 200
+		url = "/index.xml"
