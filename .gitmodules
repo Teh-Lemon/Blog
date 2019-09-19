@@ -8,3 +8,6 @@
 [submodule "themes/mediumish-gohugo-theme"]
 	path = themes/mediumish-gohugo-theme
 	url = https://github.com/Teh-Lemon/mediumish-gohugo-theme.git
+[submodule "content"]
+	path = content
+	url = https://github.com/Teh-Lemon/Blog-Content.git
