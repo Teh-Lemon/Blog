@@ -8,7 +8,7 @@ copyright = "Teh Lemon"
 enableEmoji = true
 publishDir = "public"
 #disqusShortname = "your-shortname-here"
-googleAnalytics = "UA-62547358-1"
+#googleAnalytics = "UA-62547358-1"
 hasCJKLanguage = true
 canonifyurls = true
 
@@ -21,6 +21,7 @@ canonifyurls = true
   logo = "/images/lemon.png"
   description ="Teh Lemon's blog"	
   #mailchimp = "you can provide a mailchimp-link here"
+  customCSS = ["css/tweaks.css"]
 
 [params.author]
   # Commented out to omit the author block above articles
@@ -53,6 +54,7 @@ https://twitter.com/TehLemon
   #xing = "<username>"
   #medium = "<username>"
   #twitter = "tehlemon"
+  #instagram = "<username>"
 
 ## Main Menu
 [[menu.main]]
