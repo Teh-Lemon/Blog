@@ -63,6 +63,11 @@ https://twitter.com/TehLemon
     weight = 100
     url = "/"
 [[menu.main]]
+    name = "Articles"
+    weight = 100
+    identifier = "articles"
+    url = "/articles"
+[[menu.main]]
     name = "Blog"
     weight = 100
     identifier = "blog"
