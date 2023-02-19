@@ -30,22 +30,18 @@ canonifyurls = true
   description = ""
 
 [params.index]
-  picture = "/images/yuno.jpg"
+  picture = "/images/icon.png"
   title = "Teh Lemon"
-  subtitle = "Bloggy Blogs"
+  subtitle = "I take photos and write code."
   mdtext = '''
-##### Anime  
-https://myanimelist.net/animelist/teh_lemon
 
-##### Games  
-https://steamcommunity.com/id/teh_lemon
-
-##### Github  
+## [Travel Blogs](/blog) | [Dev Diaries](/articles) | [Dev Portfolio](/static/projects)
+&nbsp;
+#### Github  
 https://github.com/teh-lemon
 
-##### Twitter  
+#### Twitter  
 https://twitter.com/TehLemon  
-https://twitter.com/WakabaGames
 '''
   alertbar = false
 
