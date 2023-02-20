@@ -33,15 +33,21 @@ canonifyurls = true
   picture = "/images/icon.png"
   title = "Teh Lemon"
   subtitle = "I take photos and write code."
+  
+  # Homepage text
   mdtext = '''
-
-## [Travel Blogs](/blog) | [Dev Diaries](/articles) | [Dev Portfolio](/static/projects)
+## 📷 [Travel Blogs](/blog)  
 &nbsp;
-#### Github  
-https://github.com/teh-lemon
+## 🎮 [Dev Diaries](/articles)  
+&nbsp;
+## 💻 [Dev Portfolio](/static/projects)
+&nbsp;
 
-#### Twitter  
-https://twitter.com/TehLemon  
+### Github  
+#### https://github.com/teh-lemon
+
+### Twitter  
+#### https://twitter.com/TehLemon  
 '''
   alertbar = false
 
