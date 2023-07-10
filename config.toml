@@ -37,6 +37,8 @@ canonifyurls = true
   # Homepage text
   mdtext = '''
 ## 📷 [Travel Blogs](/blog)  
+#### 🚌[Day Trips](/tags/day-trips/) · 📆[Events](/tags/events/)   
+#### ⛩️[Japan 2019](/tags/jp2019/) 
 &nbsp;
 ## 🎮 [Dev Diaries](/articles)  
 &nbsp;
