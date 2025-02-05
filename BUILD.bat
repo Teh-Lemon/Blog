@@ -1,3 +1,4 @@
+REM Requires Hugo v0.11
 REM Removing old build
 rmdir /S /Q public
 
